@@ -21,6 +21,7 @@ resorts = (
 dbc_css = "https://cdn.jsdelivr.net/gh/AnnMarieW/dash-bootstrap-templates/dbc.min.css"
 
 app = JupyterDash(__name__, external_stylesheets=[dbc.themes.MORPH, dbc_css])
+resort_app = server
 
 load_figure_template("MORPH")
 
@@ -173,4 +174,5 @@ def report_card(hoverData):
 
 if __name__ == "__main__":
     app.run_server(port=2035)
+
 
