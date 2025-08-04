@@ -10,7 +10,7 @@ import pandas as pd
 import numpy as np
 
 resorts = (
-    pd.read_csv("../Data/Ski Resorts/resorts.csv", encoding = "ISO-8859-1")
+    pd.read_csv("resorts.csv", encoding = "ISO-8859-1")
     .assign(
         country_elevation_rank = lambda x: x.groupby("Country", as_index=False)["Highest point"].rank(ascending=False),
         country_price_rank = lambda x: x.groupby("Country", as_index=False)["Price"].rank(ascending=False),
@@ -173,3 +173,4 @@ def report_card(hoverData):
 
 if __name__ == "__main__":
     app.run_server(port=2035)
+
