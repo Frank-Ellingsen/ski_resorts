@@ -6,6 +6,7 @@
 ![Status](https://img.shields.io/badge/status-active-success.svg)  
 
 A Python project for analyzing and visualizing ski resort data. This repository provides tools to explore ski resort information, including locations, features, and other relevant details.
+<img width="1325" height="506" alt="image" src="https://github.com/user-attachments/assets/7f754827-8779-4fe4-89c9-944dea0e0fa7" />
 
 ---
 
@@ -14,6 +15,7 @@ A Python project for analyzing and visualizing ski resort data. This repository 
 - Perform data analysis using **pandas**.
 - Visualize resort statistics with **matplotlib** or **seaborn**.
 - Filter resorts by country, elevation, and other attributes.
+<img width="1326" height="536" alt="image" src="https://github.com/user-attachments/assets/96c586a3-a3c7-4682-94a2-a9d4f00246dc" />
 
 ---
 
