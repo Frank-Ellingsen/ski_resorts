@@ -1,3 +1,4 @@
+<img width="1097" height="456" alt="image" src="https://github.com/user-attachments/assets/dad2bddb-a538-444a-ba30-5d0749250a51" />
 
 # Ski Resorts  
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)  
